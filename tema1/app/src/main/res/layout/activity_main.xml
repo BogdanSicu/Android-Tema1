@@ -4,21 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/my_final_form">
+    android:background="@drawable/my_final_form"
+    tools:context=".MainActivity">
 
 
     <Button
         android:id="@+id/main_button"
         android:layout_width="0dp"
-        android:layout_height="90dp"
+        android:layout_height="75dp"
         android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
         android:layout_marginBottom="10dp"
+        android:rotation="-6"
         android:text="@string/btn_start_quiz"
-        android:visibility="invisible"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -27,16 +27,14 @@
         app:layout_constraintVertical_bias="0.06999999" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/results_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="220dp"
-        android:layout_marginLeft="220dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
         android:layout_marginBottom="25dp"
-        android:text="Button"
-        android:visibility="invisible"
+        android:text="@string/results_button"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.94"

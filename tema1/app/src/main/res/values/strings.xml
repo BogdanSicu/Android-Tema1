@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">Quiz</string>
-    <string name="btn_start_quiz">Start Quiz</string>
+    <string name="btn_start_quiz"></string>
     <string name="answer1">answer1</string>
     <string name="answer2">answer2</string>
     <string name="answer3">answer3</string>
     <string name="answer4">answer4</string>
-    <string name="Quit_and_save">Quit_and_save</string>
+    <string name="Quit_and_save"></string>
+    <string name="results_button" />
 </resources>
