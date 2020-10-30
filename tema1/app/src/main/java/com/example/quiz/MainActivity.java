@@ -18,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        buttonQuiz = findViewById(R.id.main_button);
+
+        buttonQuiz = findViewById(R.id.Sicu_Bogdan_Andrei_startQuiz_btn);
         buttonQuiz.setVisibility(View.VISIBLE);
         buttonQuiz.setBackgroundColor(Color.TRANSPARENT);
         buttonQuiz.setOnClickListener(new View.OnClickListener() {
@@ -28,15 +29,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        buttonResults= findViewById(R.id.results_button);
-        buttonResults.setBackgroundColor(View.VISIBLE);
-        buttonResults.setBackgroundColor(Color.TRANSPARENT);
-        buttonResults.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openResults();
-            }
-        });
     }
 
     public void openQuiz(){

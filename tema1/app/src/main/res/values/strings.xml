@@ -7,4 +7,5 @@
     <string name="answer4">answer4</string>
     <string name="Quit_and_save"></string>
     <string name="results_button" />
+    <string name="results_textview">GG</string>
 </resources>

@@ -8,19 +8,19 @@
     android:background="@drawable/quiz_final_form">
 
     <ImageView
-        android:id="@+id/image_question"
+        android:id="@+id/Sicu_Bogdan_Andrei_image_question"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@id/answer1_btn"
+        app:layout_constraintBottom_toTopOf="@id/Sicu_Bogdan_Andrei_answer1_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.503"
-        app:srcCompat="@drawable/bear" />
+        app:srcCompat="@drawable/urs_brum" />
 
     <Button
-        android:id="@+id/answer1_btn"
+        android:id="@+id/Sicu_Bogdan_Andrei_answer1_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -29,13 +29,13 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/answer1"
-        app:layout_constraintBottom_toTopOf="@id/answer3_btn"
-        app:layout_constraintEnd_toStartOf="@id/answer2_btn"
+        app:layout_constraintBottom_toTopOf="@id/Sicu_Bogdan_Andrei_answer3_btn"
+        app:layout_constraintEnd_toStartOf="@id/Sicu_Bogdan_Andrei_answer2_btn"
         app:layout_constraintStart_toStartOf="parent"
         android:background="@drawable/rounded_button"/>
 
     <Button
-        android:id="@+id/answer2_btn"
+        android:id="@+id/Sicu_Bogdan_Andrei_answer2_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -44,13 +44,13 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="8dp"
         android:text="@string/answer2"
-        app:layout_constraintBottom_toTopOf="@id/answer4_btn"
+        app:layout_constraintBottom_toTopOf="@id/Sicu_Bogdan_Andrei_answer4_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/answer1_btn"
+        app:layout_constraintStart_toEndOf="@id/Sicu_Bogdan_Andrei_answer1_btn"
         android:background="@drawable/rounded_button"/>
 
     <Button
-        android:id="@+id/answer3_btn"
+        android:id="@+id/Sicu_Bogdan_Andrei_answer3_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -59,14 +59,14 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/answer3"
-        app:layout_constraintBottom_toTopOf="@id/quit_and_save_btn"
-        app:layout_constraintEnd_toStartOf="@id/answer4_btn"
+        app:layout_constraintBottom_toTopOf="@id/Sicu_Bogdan_Andrei_quit_and_save_btn"
+        app:layout_constraintEnd_toStartOf="@id/Sicu_Bogdan_Andrei_answer4_btn"
         app:layout_constraintStart_toStartOf="parent"
         android:background="@drawable/rounded_button"/>
 
 
     <Button
-        android:id="@+id/answer4_btn"
+        android:id="@+id/Sicu_Bogdan_Andrei_answer4_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -75,13 +75,13 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="8dp"
         android:text="@string/answer4"
-        app:layout_constraintBottom_toTopOf="@id/quit_and_save_btn"
+        app:layout_constraintBottom_toTopOf="@id/Sicu_Bogdan_Andrei_quit_and_save_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/answer3_btn"
+        app:layout_constraintStart_toEndOf="@id/Sicu_Bogdan_Andrei_answer3_btn"
         android:background="@drawable/rounded_button"/>
 
     <Button
-        android:id="@+id/quit_and_save_btn"
+        android:id="@+id/Sicu_Bogdan_Andrei_quit_and_save_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
