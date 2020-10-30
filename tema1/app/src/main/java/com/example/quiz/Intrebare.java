@@ -31,7 +31,7 @@ public class Intrebare extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intrebare);
 
-        Material_Intrebare intrebare1 = new Material_Intrebare("urs_brum", "koala", "wombat","capybara");
+        Material_Intrebare intrebare1 = new Material_Intrebare("koala", "urs brun", "wombat","capybara");
         lista.add(intrebare1);
         Material_Intrebare intrebare2 = new Material_Intrebare("okapi", "zebra", "caprioara","girafa");
         lista.add(intrebare2);
