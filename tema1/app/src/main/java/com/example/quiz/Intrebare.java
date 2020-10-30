@@ -151,9 +151,13 @@ public class Intrebare extends AppCompatActivity  {
             Random(lista.get(numarul_intrebarii), butoane);
         }
         else{
+            numarul_intrebarii=0;
+            int auxi = scor;
+            scor=0;
             Intent intent = new Intent(this, Results_activity.class);
-            intent.putExtra("scor", scor);
+            intent.putExtra("scor", auxi);
             startActivity(intent);
+
         }
 
     }
